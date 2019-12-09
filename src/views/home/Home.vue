@@ -64,7 +64,12 @@
     data() {
       return {
         banners: [],
-        recommends: []
+        recommends: [],
+        goods: {
+          'pop': {page: 0, list: []},
+          'news': {page: 0, list: []},
+          'sell': {page: 0, list: []},
+        }
       }
     },
     created() {
